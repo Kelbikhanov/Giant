@@ -98,7 +98,9 @@ hr {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 10;
+}
+.header--fixed {
+    background-color: ;
 }
 .header__inner {
     padding-top: 30px;
@@ -126,6 +128,46 @@ hr {
     transition: .2s;
 }
 
+/*NavToggle*/
+
+.nav__toggle {
+    width: 30px;
+    position: absolute;
+    padding: 10px 0;
+    top: 15px;
+    right: 15px;
+    z-index: 1;
+}
+.nav__toggle-item {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.nav__toggle-item:before,
+.nav__toggle-item:after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+.nav__toggle-item:before {
+    top: -8px;
+}
+.nav__toggle-item:after {
+    top: -8px;
+}
 /*Services*/
 
 .services {
