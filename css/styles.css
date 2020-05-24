@@ -851,16 +851,94 @@ hr {
     /*Slide*/
     .reviews__item-slide {
         margin-left: 15%;
-        max-width: 370px;
+        max-width: 500px;
     }
     
     
 }
 @media (max-width: 575px) {
-    
+    /*Header*/ 
+    .header__logo {
+        display: none;
+    }
+    .header.fixed {
+        padding: 25px 0;
+    }
+    /*Section*/ 
+    .section__title {
+        font-size: 18px;
+    }
+    .section__subtitle {
+        font-size: 10px;
+    }
+    /*Main*/
+    .main__inner {
+        padding-left: 20px;
+    }
     .main__title {
-        font-size: 28px;
+        font-size: 14px;
         color: #222222;
+    }
+    .main__subtitle {
+        font-size: 10px;
+    }
+    .main__variable {
+        font-size: 10px;
+    }
+    /*Services*/
+    .services {
+        padding-left: 0;
+    }
+    .services__item {
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+    .services__img {
+        display: none;
+    }
+    .services__title {
+        font-size: 14px;
+    }
+    .services__text {
+        width: 250px;
+        font-size: 10px;
+    }
+    /*Info*/ 
+    .info__title {
+        font-size: 18px;
+    }
+    .info__subtitle {
+        font-size: 10px;
+    }
+    .info__variable {
+        font-size: 10px;
+    }
+    /*Tariff*/
+    .tariffication__item {
+        padding-left: 0;
+    }
+    /*Reviews*/
+    .reviews__text {
+        font-size: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .reviews__ico {
+        display: none;
+    }
+    .reviews__title {
+        font-size: 14px;
+    }
+    .reviews__subtitle {
+        font-size: 10px;
+    }
+    .reviews__item-slide {
+        margin-left: 0;
+        max-width: 260px;
+    }
+    /*Video*/
+    .video__div {
+        padding-right: 30px;
     }
     /*Download*/
     .download__item {
