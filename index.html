@@ -13,18 +13,18 @@
 </head>
 <body>
 
-    <header class="header header--fixed">
+    <header class="header" id="header">
         <div class="container">
             <div class="header__inner">
-                <div class="header__logo"><a href="#!"><img src="./img/logo.png" alt=""></a></div>
-                <nav class="nav">
-                    <a class="nav__link" href="#!">Home</a>
-                    <a class="nav__link" href="#!">Features</a>
-                    <a class="nav__link" href="#!">Pricing</a>
-                    <a class="nav__link" href="#!">Download Now</a>
+                <div class="header__logo" ><a href="#!"><img src="./img/logo.png" alt=""></a></div>
+                <nav class="nav" id="nav">
+                    <a class="nav__link" href="#!" data-scroll="#main">Home</a>
+                    <a class="nav__link" href="#!" data-scroll="#services">Features</a>
+                    <a class="nav__link" href="#!" data-scroll="#tariffication">Pricing</a>
+                    <a class="nav__link" href="#!" data-scroll="#download">Download Now</a>
                 </nav>
 
-                <div class="nav__toggle">
+                <div class="nav__toggle" id="nav__toggle">
                     <span class="nav__toggle-item"></span>
                 </div>
             </div>
@@ -35,7 +35,7 @@
 
     
 
-    <div class="main">
+    <div class="main" id="main">
         <div class="img">
             <div class="container">
                 <div class="main__inner">
@@ -53,9 +53,9 @@
         
     </div>
 
-    <section class="section">
+    <section class="section" id="services">
         <div class="container">
-            <div class="services">
+            <div class="services" >
                 <div class="services__item">
                     <img class="services__img" src="./img/icons/services1.png" alt="">
 
@@ -165,7 +165,7 @@
         </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="tariffication">
         <div class="container">
 
             <div class="section__header">
@@ -174,7 +174,7 @@
                      a developer, or a PM, or a UX designer, why develop this totally separate skill?</p>
             </div>
 
-            <div class="tariffication">
+            <div class="tariffication" >
                 <div class="tariffication__item">
                     <h3 class="tariffication__subtitle">Basic</h3>
                     <h1 class="tariffication__title"><p class="usd">$</p>12.0/m</h1>
@@ -361,7 +361,7 @@
         </div>
     </section>
 
-    <section class="section__download">
+    <section class="section__download" id="download">
             <div class="container">
                 <div class="download__header">
                     <h2 class="section__header-title">Download Giant App Now</h2>
